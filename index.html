@@ -1,42 +1,120 @@
-<!-- TODO: Adicionar botão aqui -->
-<!-- FIXME: Verificar layout em mobile -->
-<!-- ! Atenção: Não remover esse trecho -->
-<!-- ? Isso é realmente necessário? -->
-<!-- * Esse código está funcionando perfeitamente -->
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-    <title>🐾Amor e cuidado para o seu melhor amigo - DEVELOP</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AgroPet Vida Animal - Pet shop em Santos com produtos, banho e tosa e atendimento veterinário humanizado." />
+  <meta name="keywords" content="pet shop santos, banho e tosa, veterinário, ração, acessórios pet, vila belmiro" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="AgroPet Vida Animal" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AgroPet Vida Animal - Amor e Cuidado para seu Pet" />
+  <meta property="og:description" content="Pet shop completo em Santos com serviços veterinários e produtos de qualidade." />
+  <title>AgroPet Vida Animal - Pet Shop em Santos</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <header>
-        <a class="link-header">Home</a>
-        <a class="link-header">Sobre</a>
-        <a class="link-header">Produto</a>
-        <a class="link-header">Serviços</a>
-        <a class="link-header">Contato</a>
-        <button class="button-header">Login</button>
-    </header>
-    
-    <main>
-            <img src="./img/we-care.png" alt="we-care-logo" class="logo-image">
+  <header>
+    <nav class="navbar">
+      <div class="logo">🐾 AgroPet Vida Animal</div>
+      <button id="menu-btn" class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section> 
-            <h1>🐾Amor e Cuidado</h1>
-            <h2>para o seu melhor amigo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore accusantium dolore voluptas unde dignissimos ut veritatis reprehenderit enim dolor molestiae? Provident harum accusamus expedita, reprehenderit magnam cumque itaque fugiat! Sunt.</p>
-            <button class="button-main">Explore</button>
-        </section>   
-    </main>
+  <main>
+    <section class="hero visible" id="home">
+      <div class="hero-text">
+        <h1>Amor e Cuidado para o seu Melhor Amigo</h1>
+        <p>Produtos de qualidade, serviços veterinários especializados e atendimento com carinho e respeito. Sua família pet merece o melhor!</p>
+        <a href="https://wa.me/5548988728153?text=Olá! Gostaria de agendar um horário" class="btn-primary" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-whatsapp"></i> Agendar pelo WhatsApp
+        </a>
+      </div>
+      <div class="hero-img">
+        <img src="./img/home agropet.png"
+             alt="Veterinária sorridente com cachorro e gato" loading="lazy" />
+      </div>
+    </section>
 
+    <section class="sobre" id="sobre">
+      <div class="container">
+        <div class="sobre-content">
+          <div class="sobre-text">
+            <h2>Sobre Nós</h2>
+            <p>Há mais de 10 anos oferecendo cuidado, respeito e carinho para todos os pets de Santos e região. Nossa equipe é apaixonada por animais e trabalha com dedicação para garantir o bem-estar do seu melhor amigo.</p>
+            <p>Contamos com profissionais qualificados, infraestrutura moderna e um atendimento personalizado que faz toda a diferença na vida do seu pet.</p>
+            <a href="https://wa.me/5548988728153?text=Olá! Gostaria de conhecer melhor a AgroPet Vida Animal" class="btn-secondary" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-comment-dots"></i> Fale Conosco
+            </a>
+          </div>
+          <div class="sobre-img">
+            <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=500&q=80" alt="Cuidado com animais" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-grid">
+          <div class="service-card">
+            <i class="fas fa-stethoscope"></i>
+            <h3>Atendimento Veterinário</h3>
+            <p>Consultas, vacinas e tratamentos com profissionais especializados e equipamentos modernos para cuidar da saúde do seu pet.</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-shower"></i>
+            <h3>Banho e Tosa</h3>
+            <p>Cuidados estéticos com produtos de qualidade premium e muito carinho. Deixamos seu pet lindo e cheiroso!</p>
+          </div>
+          <div class="service-card">
+            <i class="fas fa-shopping-bag"></i>
+            <h3>Pet Shop</h3>
+            <p>Rações premium, acessórios, brinquedos e tudo que seu animal de estimação precisa para uma vida saudável e feliz.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <p><strong>AgroPet Vida Animal</strong></p>
+    <p>📍 Vila Belmiro, Santos - SP | ☎️ (48) 98872-8153</p>
+    
+    <div class="social-icons">
+      <a href="https://wa.me/5548988728153" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer" title="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer" title="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </div>
+    
+    <p><a href="https://wa.me/5548988728153" target="_blank" rel="noopener noreferrer">💬 Fale conosco pelo WhatsApp</a></p>
+    <p style="margin-top: 1.5rem; opacity: 0.9;">© 2025 AgroPet Vida Animal - Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- JavaScript externo -->
+  <script src="script.js"></script>
 </body>
 </html>
