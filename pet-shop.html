@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Shop | AgroPet Vida Animal</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body id="topo">
+  
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo-link" aria-label="Ir para o início">
+        <img src="img/agropet_logo_horizontal.png" alt="AgroPet Vida Animal - Pet Shop e Clínica Veterinária" class="logo-img" />
+      </a> 
+      
+      <button id="menu-btn" class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        
+        <!-- ✅ ESTRUTURA CORRETA DO DROPDOWN -->
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn" aria-haspopup="true" aria-expanded="false">
+            Serviços <span class="dropdown-arrow">▾</span>
+          </a>
+          <ul class="submenu">
+            <li><a href="atendimento-veterinario.html">Atendimento Veterinário</a></li>
+            <li><a href="banho-e-tosa.html">Banho e Tosa</a></li>
+            <li><a href="pet-shop.html">Pet Shop</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pagina-servico">
+    <section class="servico-header">
+      <h1>Pet Shop</h1>
+      <p>Tudo o que seu pet precisa em um só lugar — rações, brinquedos, acessórios e muito amor!</p>
+    </section>
+
+    <section class="servico-fotos">
+      <img src="./img/Pet Shop/pet shop brinquedos.png" alt="Produtos pet shop" loading="lazy" />
+      <img src="./img/Pet Shop/pet shop racao.jpg" alt="Acessórios pet" loading="lazy" />
+      <img src="./img/Pet Shop/petshop osso.png" alt="Brinquedos para pets" loading="lazy" />
+    </section>
+
+    <section class="servico-descricao">
+      <h2>Descrição</h2>
+      <p>Nosso pet shop conta com uma variedade de produtos premium para cães e gatos. Oferecemos rações, petiscos, brinquedos, roupas e acessórios com excelente custo-benefício.</p>
+
+      <h3>Benefícios</h3>
+      <ul>
+        <li>Marcas renomadas e produtos de qualidade</li>
+        <li>Equipe preparada para orientar sua compra</li>
+        <li>Opções saudáveis e nutritivas</li>
+        <li>Atendimento rápido e amigável</li>
+      </ul>
+
+      <a href="https://wa.me/5548988728153?text=Olá! Gostaria de saber mais sobre os produtos do Pet Shop." class="btn-primary" target="_blank" rel="noopener noreferrer">
+        Solicitar Orçamento
+      </a>
+    </section>
+
+    <section class="faq">
+      <h2>Perguntas Frequentes</h2>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Quais marcas de ração vocês trabalham?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Trabalhamos com as principais marcas premium do mercado: Royal Canin, Premier, Golden, Pedigree, Whiskas e muitas outras.</p>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Vocês entregam em domicílio?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sim! Realizamos entregas em toda região de Santos. Entre em contato via WhatsApp para consultar prazos.</p>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Posso parcelar minhas compras?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sim, aceitamos cartões de crédito com parcelamento em até 3x sem juros para compras acima de R$ 150,00.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-container">
+      <div class="footer-column">
+        <p>Tecnologia e carinho a serviço do bem-estar animal.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Endereço</h3>
+        <p>📍 Vila Belmiro, Santos - SP</p>
+        <p>CEP: 11075-200</p>
+        <h3>Horário de Atendimento</h3>
+        <p>Segunda a Sexta: 08h às 17h30</p>
+        <p>Sábados: 9h às 13h</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contato</h3>
+        <p>📞 <a href="https://wa.me/5548988728153?text=Quero mais informações - AgroPet" target="_blank" rel="noopener noreferrer">(48) 98872-8153</a></p>
+        <p>✉️ <a href="mailto:agropetvidaanimal@gmail.com?subject=Contato%20via%20site">agropetvidaanimal@gmail.com</a></p>
+        <h3>Redes Sociais</h3>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+          <a href="https://wa.me/5548988728153?text=Quero mais informações - AgroPet" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-column">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="#topo">Serviços</a></li>
+          <li><a href="https://wa.me/5548988728153?text=Quero mais informações - AgroPet" target="_blank" rel="noopener noreferrer">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 AgroPet Vida Animal - Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5548988728153?text=Olá! Gostaria de saber mais sobre Pet Shop." target="_blank" rel="noopener noreferrer" class="whatsapp-flutuante" aria-label="Contato via WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
