@@ -1,26 +1,38 @@
 # 🐾 Amor e Cuidado para o Seu Melhor Amigo
 
-Este projeto é uma landing page voltada para empresas ou profissionais que oferecem **produtos e serviços para pets**, com uma proposta visual leve, acolhedora e moderna, transmitindo **carinho, confiança e cuidado**.
+Este projeto é uma site para empresas ou profissionais que oferecem **produtos e serviços para pets**, com uma proposta visual leve, acolhedora e moderna, transmitindo **carinho, confiança e cuidado**.
 
 ---
 
-## 📌 Objetivo do Projeto
+## 📌 Ele foi criado para:
 
-Criar uma interface atraente e responsiva que apresente:                                                           
-✅ Marca / logo principal  
-✅ Seções de navegação (Home, Sobre, Produto, Serviços, Contato)  
-✅ Chamada principal destacando o cuidado com os pets  
-✅ Botão de ação (CTA) para incentivo à navegação ("Explore")
+✅ **Apresentar serviços essenciais** (Atendimento Veterinário, Banho e Tosa, Pet Shop) de forma organizada e visualmente atrativa.       
+✅ **Facilitar o contato do cliente,** com botão flutuante do WhatsApp, links diretos e navegação intuitiva.  
+✅ **Transmitir credibilidade,** usando cores profissionais, layout dinâmico, imagens reais e seções bem distribuídas.  
+✅ **Demonstrar boas práticas de desenvolvimento web,** como HTML semântico, CSS moderno, animações suaves e JavaScript para interações inteligentes.
 
 ---
 
-## 🖼️ Preview do Layout
+## 🖼️ Preview do Layout 
+> Abaixo você pode visualizar a evolução completa do projeto — do protótipo inicial ao layout final desenvolvido:
 
-> Página com estrutura em destaque para a imagem da marca acompanhada de títulos fortes e texto explicativo, com botões estilizados para navegação.
-
+## 1) Versão Inicial (antes das melhorias)
 <img width="3404" height="1466" alt="image" src="https://github.com/user-attachments/assets/e79d9fa6-80e5-42b9-8aaf-600e425832a7" />
 
+## 2) Versão Final Atualizada — Projeto Concluído 🚀
+<img width="3404" height="1466" alt="image" src="https://github.com/robsonsacrament/agropecuaria-pet/blob/develop/projeto%20finalizado.png" />
 
+---
+
+## ✨ Destaques do Projeto
+- Layout limpo e acolhedor, cores em paleta verde para transmitir confiança e cuidado.  
+- Menu com submenu responsivo (desktop + mobile).  
+- Sessões com efeito *fade-in* ao rolar a página.  
+- Páginas individuais para cada serviço (Atendimento Veterinário, Banho e Tosa, Pet Shop).  
+- Cards de serviço e galeria por categoria.  
+- FAQ com acordeão animado.  
+- Rodapé padronizado em todas as páginas.  
+- Botão flutuante do WhatsApp para contato rápido. 
 
 ---
 
@@ -30,38 +42,50 @@ Criar uma interface atraente e responsiva que apresente:
 |-----------|-----------|
 | HTML5 | Estrutura do conteúdo da página |
 | CSS3 | Estilização e design responsivo |
+| JavaScript Vanilla (ES6) | Menu móvel, scroll, dropdown, animações
 | Google Fonts (Montserrat) | Tipografia moderna e elegante |
 | Visual Studio Code | Editor utilizado para desenvolvimento |
 
 ---
 
 ## 📂 Estrutura de Pastas
-├── index.html # Estrutura principal do site                                                    
-├── styles.css # Estilos da página                                              
-└── /img                                       
-└── we-care.png # Logo/Imagem principal     
+> Abaixo está a estrutura completa do projeto:
 
+📁 Raiz do Projeto
+
+📄 **index.html** — Página inicial  
+📄 **atendimento-veterinario.html** — Página do serviço Veterinário  
+📄 **banho-e-tosa.html** — Página do serviço Banho & Tosa  
+📄 **pet-shop.html** — Página do Pet Shop  
+🎨 **styles.css** — Estilos globais do site  
+⚙️ **script.js** — Menu, animações e interações  
 
 ---
 
 ## 📍 Funcionalidades
 
-✔ Layout moderno e intuitivo  
-✔ Design focado na experiência do usuário  
-✔ Conteúdo amigável e humanizado  
-✔ Tipografia profissional (Google Fonts - Montserrat)  
-✔ Estrutura preparada para expansão (Produtos, Serviços, Contato)  
+✔ Smooth Scroll (âncoras internas)  
+✔ Menu mobile com abertura/fechamento e submenu com detecção de tamanho de tela  
+✔ Animações em CSS (fade-in, hover)  
+✔ Integração com WhatsApp via link  
+✔ HTML semântico e acessível  
 
 ---
 
 ## 🚀 Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-2. cd nome-da-pasta
-3. Abra o arquivo index.html no navegador (Chrome, Edge, etc.)
+1) Método — Abrir direto no navegador (mais fácil)
+Faça o download do projeto: 
+bash - git clone https://github.com/robsonsacrament/agropecuaria-pet.git
 
+2) Abra a pasta do projeto.
+3) Clique duas vezes no arquivo: diff index.html
+4) O site abrirá automaticamente no seu navegador (Chrome, Edge, Firefox etc.)  
+✔ **Não precisa instalar nada**     
+✔ **Funciona offline**     
+✔ **Rápido e simples**    
+
+---
 
 ## 👨‍💻 Autor
 
